@@ -28,8 +28,8 @@ if [[ -n $DOKKU_API_VERSION ]]; then
 fi
 
 export PLUGIN_BUSYBOX_IMAGE="busybox:1.31.1-uclibc"
-export PLUGIN_AMBASSADOR_IMAGE="dokku/ambassador:0.3.3"
-export PLUGIN_S3BACKUP_IMAGE="dokku/s3backup:0.10.3"
-export PLUGIN_WAIT_IMAGE="dokku/wait:0.4.3"
+export PLUGIN_AMBASSADOR_IMAGE="ybkimm/dokku-ambassador:0.3.4"
+export PLUGIN_S3BACKUP_IMAGE="ybkimm/dokku-s3backup:0.12.0"
+export PLUGIN_WAIT_IMAGE="ybkimm/dokku-wait:0.4.5"
 
 export POSTGRES_CONFIG_OPTIONS=${POSTGRES_CONFIG_OPTIONS:=""}
